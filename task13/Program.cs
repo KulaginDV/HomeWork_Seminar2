@@ -34,39 +34,3 @@ else
     Console.Write ("Third digit - " + num);
     }
 }
-
-/*
-int Mess (string message)
-{
-    Console.WriteLine (message);
-    string value = Console.ReadLine();
-    int result = Convert.ToInt32 (value);
-    return result;
-}
-
-int TrirdFig (int a)
-{
-    while (a > 999)
-    {
-        a = a / 10;
-    }
-    return a % 10;
-}
-
-bool NoThirdFig (int a)
-{
-    if (a < 100)
-    {
-        Console.WriteLine ("Not third digit");
-        return false;
-    }
-    return true;
-}
-
-int a = Mess ("Input your number: ");
-
-if (NoThirdFig (a))
-{
-    Console.WriteLine (NoThirdFig (a));
-}
-*/
